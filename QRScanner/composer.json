@@ -3,13 +3,13 @@
     "type": "project",
     "autoload": {
         "psr-4": {
-            "Timon\\QrScanner\\": "src/"
+            "src\\": "src/"
         }
     },
     "authors": [
         {
-            "name": "TimonAME",
-            "email": "timon-a@outlook.at"
+            "name": "Timon",
+            "email": "minecraft.tta@gmail.com"
         }
     ],
     "require": {

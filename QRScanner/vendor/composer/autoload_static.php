@@ -11,24 +11,24 @@ class ComposerStaticInited00a93cc179a37e31c5c19f29a4411e
     );
 
     public static $prefixLengthsPsr4 = array (
+        's' => 
+        array (
+            'src\\' => 4,
+        ),
         'Z' => 
         array (
             'Zxing\\' => 6,
         ),
-        'T' => 
-        array (
-            'Timon\\QrScanner\\' => 16,
-        ),
     );
 
     public static $prefixDirsPsr4 = array (
+        'src\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src',
+        ),
         'Zxing\\' => 
         array (
             0 => __DIR__ . '/..' . '/khanamiryan/qrcode-detector-decoder/lib',
-        ),
-        'Timon\\QrScanner\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/src',
         ),
     );
 

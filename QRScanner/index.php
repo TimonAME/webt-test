@@ -1,6 +1,6 @@
 <?php
 //composer require khanamiryan/qrcode-detector-decoder
-require __DIR__ . "/vendor/autoload.php";
+require "vendor/autoload.php";
 
 use Zxing\QrReader;
 
