@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FetchDemo</title>
+    <script>
+        let url = ('https://data.wien.gv.at/daten/geo?service=WFS&request=GetFeature&version=1\n' +
+            '.1.0&typeName=ogdwien:TRAUMHOCHZEITOGD&srsName=EPSG:4326&outputFor\n' +
+            'mat=json ');
+        fetch(url).then(function (response) {
+            return response.json()
+        }).then(function (data) {
+            console.log(data)
+            document.getElementById("location").innerHTML = data.features[0].properties.EMAIL;
+        }).finally().catch(error)
+        {
+            console.log(error)
+        }
+    </script>
+</head>
+<body>
+<h1 id="location">DONt You Forget ABOut Me!!!</h1>
+</body>
+</html>

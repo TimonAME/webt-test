@@ -1,0 +1,17 @@
+{
+    "name": "htlw3r/composer-demo",
+    "description": "Composer demonstration blablabla ... wen jukts",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Htlw3r\\ComposerDemo\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "TimonAME",
+            "email": "timon-a@outlook.at"
+        }
+    ],
+    "require": {}
+}
